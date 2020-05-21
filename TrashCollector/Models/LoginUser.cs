@@ -16,6 +16,5 @@ namespace TrashCollector.Models
         public string Address { get; set; }
         public string EmailAddress { get; set; }
         public double PhoneNumber { get; set; }
-        public int Role { get; set; }
     }
 }
