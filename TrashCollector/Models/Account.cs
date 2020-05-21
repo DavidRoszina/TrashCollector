@@ -7,5 +7,6 @@ namespace TrashCollector.Models
 {
     public class Account
     {
+        public int AccountNumber;
     }
 }

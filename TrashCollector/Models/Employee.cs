@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace TrashCollector.Models
 {
-    public class Employee
+    public class Employee : LoginUser
     {
+
     }
 }
