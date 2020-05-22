@@ -11,5 +11,9 @@ namespace TrashCollector.Models
         [Key]
 
         public int id;
+
+        public double Balance;
+
+        public string PickupDay;
     }
 }
