@@ -10,6 +10,6 @@ namespace TrashCollector.Models
     {
         [Key]
 
-        public int EmployeeID;
+        public int id;
     }
 }
