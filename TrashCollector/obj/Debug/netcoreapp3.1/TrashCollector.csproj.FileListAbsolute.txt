@@ -182,3 +182,4 @@ C:\Users\david\Desktop\devCodeCamp\Websites\TrashCollector\TrashCollector\TrashC
 C:\Users\david\Desktop\devCodeCamp\Websites\TrashCollector\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\david\Desktop\devCodeCamp\Websites\TrashCollector\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\david\Desktop\devCodeCamp\Websites\TrashCollector\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\david\Desktop\devCodeCamp\Websites\TrashCollector\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csprojAssemblyReference.cache
