@@ -12,11 +12,13 @@ namespace TrashCollector.Models
     {
         [Key]
 
-        public int id;
+        public int id { get; set; }
 
-        public double Balance;
+        public string Name { get; set; }
 
-        public string PickupDay;
+        public double Balance { get; set; }
+
+        public string PickupDay { get; set; }
 
         [ForeignKey("IdentityUser")]
         public string IdentityUserId { get; set; }
