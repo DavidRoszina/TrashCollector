@@ -79,7 +79,7 @@ namespace TrashCollector.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             var roles = _roleManager.Roles;
-            Roles = new SelectList(roles, "Customer", "Employee");
+            Roles = new SelectList(roles, "Name", "Name");
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
@@ -116,6 +116,7 @@ namespace TrashCollector.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
+                        //else if based on role, redirect to appropriate Index
                         return LocalRedirect(returnUrl);
                     }
                 }
